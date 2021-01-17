@@ -26,4 +26,4 @@ Regardless if you can or cannot answer the question, provide a short explanation
 ## Solution
 
 I started off by researching what genome maps were and after understanding their purpose, then got to work on creating the genome map for the tomato curly stunt virus. I found DNAFeaturesViewer which made it easy to graph the genome map as it took care of all the code required to display and draw the graph. All I needed to do was parse the genome.gb file for the required data such as the location of the gene on the sequence and then feed it to the GraphicFeature class in the DNAFeaturesLibrary.
-[circular genome map](https://github.com/Fiery-Silverbird/ACM-Research-Coding-Challenge-S21/blob/main/Tomato_curly_stunt_virus.png?raw=true)
+![circular genome map](https://github.com/Fiery-Silverbird/ACM-Research-Coding-Challenge-S21/blob/main/Tomato_curly_stunt_virus.png?raw=true)

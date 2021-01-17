@@ -22,3 +22,8 @@ Genome analysis is the identification of genomic features such as gene expressio
 **You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+
+## Solution
+
+I started off by researching what genome maps were and after understanding their purpose, then got to work on creating the genome map for the tomato curly stunt virus. I found DNAFeaturesViewer which made it easy to graph the genome map as it took care of all the code required to display and draw the graph. All I needed to do was parse the genome.gb file for the required data such as the location of the gene on the sequence and then feed it to the GraphicFeature class in the DNAFeaturesLibrary.
+Here is the circular genome map![circular genome map](https://github.com/Fiery-Silverbird/ACM-Research-Coding-Challenge-S21/blob/main/Tomato_curly_stunt_virus.png?raw=true)
